@@ -1,0 +1,180 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    
+    /*same as above*/
+    font:normal 16px arial, helvetica, sans-serif;
+
+    line-height: 1.4em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+    
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
+
+.clr{
+clear: both;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    /*same as above*/
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    padding: 20px;
+
+    margin: 20;
+
+}
+
+.box-1 h1{
+    font-family: tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.catagories{
+    border:1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.catagories h2{
+    text-align: center;
+}
+
+.catagories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+.catagories li{
+    padding: 6px;
+    border-bottom:dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
+.MyForm{
+    padding: 20px;
+}
+.MyForm label{
+    display: block;
+}
+.MyForm input[type="text"], .MyForm textarea, .MyForm input[type="email"]{
+    padding: 8px;
+    width: 100%;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#MainBlock{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#SideBar{
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px; 
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+
+.p-box h1{
+    position:absolute;
+    top: 100px;
+    left: 150px;
+}
+.fix-me{
+    position:fixed;
+    top:50%;
+    margin: 0;
+}
+
+.mylist li:first-child{
+    background:red ;
+}
+
+.mylist li:last-child{
+    background: blue ;
+}
+
+.mylist li:nth-child(5){
+    background: yellow;
+}
+.mylist li:nth-child(even){
+    background: grey;
+}
